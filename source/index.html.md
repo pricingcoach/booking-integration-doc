@@ -39,12 +39,14 @@ It is the service that should be used to send a new reservation record. There is
   {
   "roomName": "A Room Name",
   "price": 75,
-  "date": "2024-09-20"
+  "startDate": "2024-08-20",
+  "endDate": "2024-09-20"
 },
 {
   "roomName": "B Room Name",
   "price": 75,
-  "date": "2024-09-21"
+  "startdate": "2024-08-21",
+  "endDate":"2024-09-21"
 },
 ...
 ]
@@ -72,7 +74,8 @@ Name | type | example | description
 --------- | ------- | ----------- | -------
 roomName  | string  | A Room Name |  Contains information about the room type
 price | integer | 75 | Price information
-date | DateTime | 2024-09-20  | Date information
+startDate | DateTime | 2024-08-20  | Date information
+endDate   | DateTime | 2024-09-20  | Date information
 
 
 
